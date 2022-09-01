@@ -1,0 +1,284 @@
+/** Base Styles **/
+
+body {
+    color: #535353;
+    font-family: "Playfair Display", serif;
+}
+
+
+/** Grid **/
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+
+/** Header 
+includes Header image, h1, nav, h2, and span **/
+
+header {
+    background: url(../img/full-background.png);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+header h1 {
+    color: #475A47;
+    font-size: 30px;
+    font-family: "Playfair Display";
+    padding: 65px 0 65px 25px;
+}
+
+nav {
+    float: right;
+    padding: 75px 0px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #828282;
+    font-size: 18px;
+    padding-left: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header h2 {
+    color: #9b9b9b;
+    clear: both;
+    font-family: "Playfair Display";
+    font-size: 72px;
+    line-height: 80px;
+    padding: 20px 0 20px 25px;
+    width: 970px;
+}
+
+header h2 span {
+    color: #2b2b2b;
+}
+
+
+/** About **/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    padding-left: 24px;
+}
+
+#about p {
+    color: #000000;
+    font-size: 21px;
+    line-height: 40px;
+    padding-left: 24px;
+    padding-right: 50px;
+}
+
+
+/** Work **/
+
+#work {
+    background: #f9ceb7;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 auto;
+    width: 200px;
+}
+
+#work p {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+
+/** Contact 
+includes Contact image and social media logos **/
+
+#contact {
+    background: #ebebeb;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-img {
+    border: 12px solid #ffffff;
+    margin-left: 25px;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+#contact #email-header {
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
+
+
+/**************** MY LIFE PAGE *****************/
+
+
+header h1 span {
+    color: #535353;
+    font-size: 30px;
+    font-family: "Playfair Display";
+    font-style: italic;
+}
+
+
+/*** FAMILY ***/
+
+#family {
+    background: #EBF4ED;
+}
+
+#family img {
+    width: 600px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 50px;
+}
+
+#family h3 {
+    font-family: "Lobster Two";
+    font-size: 25px;
+    line-height: 45px;
+    padding: 20px 0;
+}
+
+#family p {
+    font-size: 18px;
+    padding: 70px 0;
+    
+}
+
+
+
+/*** FRIENDS ***/
+
+#friends {
+    background: #F6F6F6;
+}
+
+#friends img {
+    height: 500px;
+    margin-left: 50px;
+}
+
+#friends h3 {
+    font-family: "Lobster Two";
+    font-size: 25px;
+    line-height: 45px;
+    padding: 20px 0;
+}
+
+#friends p {
+    font-size: 18px;
+    padding: 70px 0;
+}
+
+
+/*** CAREER ***/
+
+#career {
+    background: #EBF4ED;
+}
+
+#career img {
+    height: 400px;
+    margin-left: 25px;
+}
+
+#career h3 {
+    font-family: "Lobster Two";
+    font-size: 25px;
+    line-height: 45px;
+    padding: 20px 0;
+}
+
+#career p {
+    font-size: 18px;
+    padding: 70px 0;
+}
+
+
+/*** FOOTER ***/
+
+footer {
+    background: #EBF4ED;
+    border-top: 1px solid #535353;
+}
+
+footer h3 {
+    font-family: "Playfair Display";
+    font-style: italic;
+    text-align: center;
+}
